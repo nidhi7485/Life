@@ -21,3 +21,135 @@ h3 {
   color: #fff;
   font-weight: 0.3rem;
 }
+
+/* ==============project css================== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  z-index: 2;
+}
+
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+}
+.nav-header {
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 2rem; */
+}
+
+.nav-link {
+  /* display: block; */
+  /* padding: 1rem 2rem; */
+  text-transform: capitalize;
+  color: hsl(185, 57%, 50%);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.nav-link:hover {
+  color: #404040;
+  background: hsl(186, 100%, 94%);
+  padding-left: 2.25rem;
+}
+/* for 280px */
+.nav-links {
+  height: 0;
+  /* overflow: hidden; */
+  /* transition: var(--transition); */
+}
+.nav-links li {
+  display: inline;
+  margin: 1rem;
+}
+
+.section {
+  margin: 1rem;
+  width: 100vw;
+}
+.about {
+  display: flex;
+}
+.about-form {
+  width: 40%;
+}
+.about-img {
+  width: 60%;
+  height: 600px;
+}
+.about-photo {
+  width: 700px;
+  height: 600px;
+}
+.contact {
+  background: #f1f5f8;
+}
+.contact-form,
+.contact-info {
+  margin: 1rem 0;
+}
+.contact-item {
+  margin-bottom: 1.75rem;
+}
+.contact-title {
+  color: var(--clr-primary);
+  font-weight: 400;
+}
+.contact-text {
+  text-transform: uppercase;
+}
+.contact-form {
+  background: #404040;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  max-width: 35rem;
+  margin-right: 50px;
+}
+.contact-form:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.contact-form h3 {
+  padding-top: 1.25rem;
+  color: #617d98;
+}
+.form-group {
+  padding: 1rem 1.5rem;
+}
+.form-control {
+  display: block;
+  width: 95%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.form-control::placeholder {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-1);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+/* @media screen and (min-width: 992px) {
+  .contact-form,
+  .contact-info {
+    /* float: left; */
+/* width: 40%; */
+/* } */

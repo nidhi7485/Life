@@ -1,9 +1,11 @@
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div>
-      <header>
-        <h3>LimitLess Life</h3>
-      </header>
+      <Navbar />
+      <Home />
     </div>
   )
 }
