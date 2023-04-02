@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
 
                 <button type='submit' class='submit-btn btn'>
-                  submit
+                  with smile
                 </button>
               </form>
             </article>

@@ -153,3 +153,39 @@ h3 {
     /* float: left; */
 /* width: 40%; */
 /* } */
+.about {
+  margin: 1rem;
+  padding: 1rem;
+}
+.headings {
+  margin: 1rem;
+  padding: 1rem;
+}
+.headings h4 {
+  font-size: 1rem;
+  font-weight: 0.25rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.underline {
+  color: brown;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.main-container {
+  display: flex;
+}
+.img-container {
+  width: 40%;
+  padding: 1rem;
+  margin: 1 rem;
+}
+.special-text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: palevioletred;
+}
+.about-text p {
+  color: pink;
+}
+.about-text {
+  width: 50%;
+}
