@@ -8,6 +8,16 @@ const port = process.env.PORT || 5000
 // db
 const connectDB = require('./db/connect')
 
+// middleware
+app.use(express.json())
+
+// router
+const userRouter = require('./routes/userRoutes')
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+app.use('/api/v1', userRouter)
+
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI)

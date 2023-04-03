@@ -33,9 +33,9 @@ const Home = () => {
                   />
                   <input
                     type='number'
-                    placeholder='number'
+                    placeholder='Phone'
                     class='form-control'
-                    name='number'
+                    name='phone'
                   />
                 </div>
 
