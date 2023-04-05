@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
 
                 <button type='submit' className='submit-btn btn'>
-                  with smile
+                  join us
                 </button>
               </form>
             </article>
